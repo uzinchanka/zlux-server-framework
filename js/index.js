@@ -9,7 +9,6 @@
   Copyright Contributors to the Zowe Project.
 */
 
-
 'use strict';
 const Promise = require('bluebird');
 const util = require('./util');

@@ -622,7 +622,6 @@ PluginLoader.prototype = {
         bootstrapLogger.log(bootstrapLogger.INFO,
           `Plugin ${plugin.identifier} at path=${plugin.location} loaded\n`);
         bootstrapLogger.debug(' Content:\n' + plugin.toString());
-        console.log('PLUGIN LOCATION: ' + plugin.location);
       } catch (e) {
         console.log(e);
         bootstrapLogger.warn(e)
