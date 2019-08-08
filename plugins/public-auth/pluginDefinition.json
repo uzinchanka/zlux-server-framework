@@ -1,0 +1,9 @@
+{
+  "identifier": "org.zowe.zlux.auth.public",
+  "pluginType": "nodeAuthentication",
+  "authenticationCategory": "fallback",
+  "apiVersion": "1.0.0",
+  "pluginVersion": "0.9.0",
+  "filename": "publicAuth.js",
+  "authenticationInstaller": "publicAuthInstaller"
+}
